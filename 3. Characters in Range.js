@@ -11,10 +11,8 @@ function charactersInRange(char1, char2) {
         for (let i = second + 1; i < first; i++) {
             let final = String.fromCharCode(i);
             res.push(final);
-
         }
     }
     console.log((res).join(` `));
 }
-charactersInRange('C',
-    '#');
+charactersInRange('A','$');
